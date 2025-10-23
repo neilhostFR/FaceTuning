@@ -1,0 +1,27 @@
+2025-03-12 13:45:30,627 - INFO - 开始下载皮肤美化模型: damo/cv_unet_skin_retouching_torch
+2025-03-12 13:45:39,634 - INFO - 模型下载成功，原始路径: C:\Users\yaobin\.cache\modelscope\hub\models\damo\cv_unet_skin_retouching_torch
+2025-03-12 13:45:39,856 - INFO - 模型文件已复制到: models\damo_cv_unet_skin_retouching_torch
+2025-03-12 15:08:24,456 - INFO - 开始下载皮肤美化模型: iic/cv_unet_skin-retouching
+2025-03-12 15:08:26,583 - ERROR - 模型初始化失败: 'unet-skin-retouching is not in the pipelines registry group skin-retouching-torch. Please make sure the correct version of ModelScope library is used.'
+2025-03-12 15:08:26,584 - ERROR - Traceback (most recent call last):
+  File "C:\xiutu\v7\download_modelscope_model.py", line 40, in download_skin_retouching_model
+    skin_retouching = pipeline('skin-retouching-torch', model=model_id)
+  File "C:\ProgramData\anaconda3\envs\modelscope\lib\site-packages\modelscope\pipelines\builder.py", line 190, in pipeline
+    return build_pipeline(cfg, task_name=task)
+  File "C:\ProgramData\anaconda3\envs\modelscope\lib\site-packages\modelscope\pipelines\builder.py", line 65, in build_pipeline
+    return build_from_cfg(
+  File "C:\ProgramData\anaconda3\envs\modelscope\lib\site-packages\modelscope\utils\registry.py", line 197, in build_from_cfg
+    raise KeyError(
+KeyError: 'unet-skin-retouching is not in the pipelines registry group skin-retouching-torch. Please make sure the correct version of ModelScope library is used.'
+
+2025-03-12 15:08:56,502 - INFO - 开始下载皮肤美化模型: iic/cv_unet_skin-retouching
+2025-03-12 15:09:06,952 - WARNING - From C:\ProgramData\anaconda3\envs\modelscope\lib\site-packages\modelscope\pipelines\cv\skin_retouching_pipeline.py:31: The name tf.disable_eager_execution is deprecated. Please use tf.compat.v1.disable_eager_execution instead.
+
+2025-03-12 15:09:10,221 - WARNING - From C:\ProgramData\anaconda3\envs\modelscope\lib\site-packages\modelscope\pipelines\cv\skin_retouching_pipeline.py:84: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2025-03-12 15:09:10,978 - INFO - 模型初始化成功
+2025-03-12 15:09:11,664 - INFO - 模型下载成功，原始路径: C:\Users\yaobin\.cache\modelscope\hub\models\iic\cv_unet_skin-retouching
+2025-03-12 15:09:11,897 - INFO - 模型文件已复制到: models\iic_cv_unet_skin-retouching
+2025-03-14 10:15:06,176 - INFO - 开始下载人像增强修复模型: damo/cv_gpen_image-portrait-enhancement-hires
+2025-03-14 10:15:06,176 - INFO - 模型已存在: models\damo_cv_gpen_image-portrait-enhancement-hires

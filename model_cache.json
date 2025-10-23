@@ -1,0 +1,9 @@
+{
+  "iic/cv_unet_skin-retouching": {
+    "path": "models\\iic_cv_unet_skin-retouching",
+    "type": "skin-retouching",
+    "version": "latest",
+    "last_used": 1741918241.8252032,
+    "cached_time": 1741918037.0471988
+  }
+}
